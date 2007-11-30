@@ -1,0 +1,11 @@
+fltk: FLTK (Fast Light Toolkit)
+fltk:
+fltk: FLTK (pronounced "fulltick") is a cross-platform C++ GUI toolkit for
+fltk: UNIX®/Linux® (X11), Microsoft® Windows®, and MacOS® X. FLTK pro
+fltk: modern GUI functionality without the bloat and supports 3D graphics
+fltk: via OpenGL® and its built-in GLUT emulation.
+fltk: FLTK is designed to be small and modular enough to be statically
+fltk: linked, but works fine as a shared library. FLTK also includes an
+fltk: excellent UI builder called FLUID that can be used to create
+fltk: applications in minutes.
+fltk: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
