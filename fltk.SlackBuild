@@ -7,7 +7,7 @@
 . ../slack-package.conf
 
 NAME=fltk
-VERSION=1.1.7
+VERSION=1.1.9
 BUILD=1
 
 TMP=${TMP:-/tmp}
@@ -29,11 +29,18 @@ CXXFLAGS=$SLKCFLAGS \
             --mandir=/usr/man \
             --enable-static=no \
             --enable-shared=yes \
-            --enable-threads
+            --enable-gl \
+            --enable-threads \
+            --enable-largefile \
+            --enable-localjpeg \
+            --enable-localzlib \
+            --enable-localpng \
+            --enable-xinerama \
+            --enable-xft || exit 1
 
-make || exit 1
+make -j4 || exit 2
 
-make DESTDIR=$PKG install
+make DESTDIR=$PKG install || exit 3
 
 bin_perms $PKG
 ( cd $PKG; strip_bin; strip_lib )
