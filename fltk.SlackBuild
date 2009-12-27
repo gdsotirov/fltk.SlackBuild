@@ -7,7 +7,7 @@
 . ../slack-package.conf
 
 NAME=fltk
-VERSION=1.1.10rc2
+VERSION=1.1.10
 BUILD=1
 
 TMP=${TMP:-/tmp}
