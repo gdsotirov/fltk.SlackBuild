@@ -8,4 +8,4 @@ fltk: FLTK is designed to be small and modular enough to be statically
 fltk: linked, but works fine as a shared library. FLTK also includes an
 fltk: excellent UI builder called FLUID that can be used to create
 fltk: applications in minutes.
-fltk: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+fltk: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
